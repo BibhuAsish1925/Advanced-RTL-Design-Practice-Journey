@@ -100,7 +100,7 @@ Advanced-RTL-Design-Practice/
 
 ---
 
-# 1️⃣ Advanced RTL Datapath
+# 1️⃣ Advanced RTL Datapath (001-014)
 
 This phase focuses on developing **advanced RTL coding and datapath design skills** beyond basic combinational and sequential circuits. The modules in this section explore different ways of describing, structuring, and controlling digital hardware at the RTL level.
 
