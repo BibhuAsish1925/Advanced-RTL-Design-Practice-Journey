@@ -27,7 +27,7 @@ module Booth_Multiplier(PRODUCT, A, B);
     end
   end
   
-endmodule : Booth_Multiplier
+endmodule 
 
 
 
