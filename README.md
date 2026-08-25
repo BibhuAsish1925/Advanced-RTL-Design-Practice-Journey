@@ -180,7 +180,7 @@ The primary objective of this phase is to understand how individual RTL componen
 
 ---
 
-# 2️⃣ Advanced Arithmetic (015-035)
+# 2️⃣ Advanced Arithmetic (015-029)
 
 This phase focuses on implementing arithmetic operations and **hardware-oriented arithmetic architectures** in Verilog/SystemVerilog. Instead of treating arithmetic purely as mathematical operations, the modules explore how algorithms can be mapped into hardware while considering latency, area, throughput, and implementation complexity.
 
