@@ -44,4 +44,4 @@ module Booth_Multiplier_tb;
     $finish;
   end
   
-endmodule
+endmodule : Booth_Multiplier_tb

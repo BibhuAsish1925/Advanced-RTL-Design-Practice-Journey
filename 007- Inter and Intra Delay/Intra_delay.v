@@ -26,4 +26,4 @@ module Intra_Delay;
 			#20;
  		end 
 
-endmodule
+endmodule : Intra_Delay

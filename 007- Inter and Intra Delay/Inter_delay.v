@@ -21,4 +21,4 @@ module Inter_Delay;
           #20;  
         end  
 
-endmodule 
+endmodule : Inter_Delay

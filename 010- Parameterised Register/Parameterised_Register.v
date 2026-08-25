@@ -22,4 +22,4 @@ module Parameterised_Register(
 
     assign op = d_ff[WIDTH-1];
 
-endmodule 
+endmodule : Parameterised_Register
