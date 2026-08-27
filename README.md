@@ -285,7 +285,7 @@ This phase builds the foundation for designing more advanced arithmetic units, D
 
 ---
 
-# 3️⃣ Clocking and Timing (30-
+# 3️⃣ Clocking and Timing (30-40)
 
 Clocking and timing are fundamental to reliable synchronous digital design. This phase focuses on RTL implementations involving **clock generation, frequency division, timing relationships, edge detection, and clock-control mechanisms**.
 
