@@ -1,0 +1,26 @@
+# run 1000ns
+t=0	 ce1=0 ce2=0 we=0 oe=0 addr=0 datain=00 dataout=xx
+t=5000	 ce1=0 ce2=0 we=0 oe=0 addr=0 datain=00 dataout=zz
+t=10000	 ce1=1 ce2=0 we=0 oe=0 addr=0 datain=00 dataout=zz
+t=30000	 ce1=1 ce2=1 we=0 oe=0 addr=0 datain=00 dataout=zz
+t=60000	 ce1=1 ce2=1 we=1 oe=0 addr=0 datain=00 dataout=zz
+t=100000	 ce1=1 ce2=1 we=0 oe=0 addr=0 datain=00 dataout=zz
+t=150000	 ce1=1 ce2=1 we=0 oe=1 addr=0 datain=00 dataout=zz
+t=155000	 ce1=1 ce2=1 we=0 oe=1 addr=0 datain=00 dataout=00
+t=210000	 ce1=1 ce2=1 we=0 oe=0 addr=0 datain=00 dataout=00
+t=215000	 ce1=1 ce2=1 we=0 oe=0 addr=0 datain=00 dataout=zz
+t=270000	 ce1=1 ce2=1 we=0 oe=0 addr=1 datain=00 dataout=zz
+t=340000	 ce1=1 ce2=1 we=0 oe=0 addr=1 datain=aa dataout=zz
+t=420000	 ce1=1 ce2=1 we=1 oe=0 addr=1 datain=aa dataout=zz
+t=510000	 ce1=1 ce2=1 we=0 oe=0 addr=1 datain=aa dataout=zz
+t=610000	 ce1=1 ce2=1 we=0 oe=1 addr=1 datain=aa dataout=zz
+t=615000	 ce1=1 ce2=1 we=0 oe=1 addr=1 datain=aa dataout=aa
+t=710000	 ce1=1 ce2=1 we=0 oe=0 addr=1 datain=aa dataout=aa
+t=715000	 ce1=1 ce2=1 we=0 oe=0 addr=1 datain=aa dataout=zz
+t=810000	 ce1=1 ce2=1 we=0 oe=0 addr=16383 datain=aa dataout=zz
+t=820000	 ce1=1 ce2=1 we=1 oe=0 addr=16383 datain=55 dataout=zz
+t=830000	 ce1=1 ce2=1 we=0 oe=1 addr=16383 datain=55 dataout=zz
+t=835000	 ce1=1 ce2=1 we=0 oe=1 addr=16383 datain=55 dataout=55
+t=840000	 ce1=1 ce2=1 we=0 oe=0 addr=16383 datain=55 dataout=55
+t=845000	 ce1=1 ce2=1 we=0 oe=0 addr=16383 datain=55 dataout=zz
+$finish called at time : 940 ns

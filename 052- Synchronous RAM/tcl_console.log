@@ -1,0 +1,37 @@
+# run 1000ns
+t=0	 rst_n=0 cs=1 oe=0 we=0 address=0 data_in=0 data_out=x
+t=5000	 rst_n=0 cs=1 oe=0 we=0 address=0 data_in=0 data_out=z
+t=10000	 rst_n=1 cs=1 oe=0 we=1 address=0 data_in=0 data_out=z
+t=20000	 rst_n=1 cs=1 oe=0 we=1 address=1 data_in=1 data_out=z
+t=30000	 rst_n=1 cs=1 oe=0 we=1 address=2 data_in=2 data_out=z
+t=40000	 rst_n=1 cs=1 oe=0 we=1 address=3 data_in=3 data_out=z
+t=50000	 rst_n=1 cs=1 oe=0 we=1 address=4 data_in=4 data_out=z
+t=60000	 rst_n=1 cs=1 oe=0 we=1 address=5 data_in=5 data_out=z
+t=70000	 rst_n=1 cs=1 oe=0 we=1 address=6 data_in=6 data_out=z
+t=80000	 rst_n=1 cs=1 oe=0 we=1 address=7 data_in=7 data_out=z
+t=90000	 rst_n=1 cs=1 oe=0 we=1 address=8 data_in=8 data_out=z
+t=100000	 rst_n=1 cs=1 oe=0 we=1 address=9 data_in=9 data_out=z
+t=110000	 rst_n=1 cs=1 oe=0 we=1 address=10 data_in=10 data_out=z
+t=120000	 rst_n=1 cs=1 oe=1 we=0 address=0 data_in=10 data_out=z
+t=125000	 rst_n=1 cs=1 oe=1 we=0 address=0 data_in=10 data_out=0
+t=130000	 rst_n=1 cs=1 oe=1 we=0 address=1 data_in=10 data_out=0
+t=135000	 rst_n=1 cs=1 oe=1 we=0 address=1 data_in=10 data_out=1
+t=140000	 rst_n=1 cs=1 oe=1 we=0 address=2 data_in=10 data_out=1
+t=145000	 rst_n=1 cs=1 oe=1 we=0 address=2 data_in=10 data_out=2
+t=150000	 rst_n=1 cs=1 oe=1 we=0 address=3 data_in=10 data_out=2
+t=155000	 rst_n=1 cs=1 oe=1 we=0 address=3 data_in=10 data_out=3
+t=160000	 rst_n=1 cs=1 oe=1 we=0 address=4 data_in=10 data_out=3
+t=165000	 rst_n=1 cs=1 oe=1 we=0 address=4 data_in=10 data_out=4
+t=170000	 rst_n=1 cs=1 oe=1 we=0 address=5 data_in=10 data_out=4
+t=175000	 rst_n=1 cs=1 oe=1 we=0 address=5 data_in=10 data_out=5
+t=180000	 rst_n=1 cs=1 oe=1 we=0 address=6 data_in=10 data_out=5
+t=185000	 rst_n=1 cs=1 oe=1 we=0 address=6 data_in=10 data_out=6
+t=190000	 rst_n=1 cs=1 oe=1 we=0 address=7 data_in=10 data_out=6
+t=195000	 rst_n=1 cs=1 oe=1 we=0 address=7 data_in=10 data_out=7
+t=200000	 rst_n=1 cs=1 oe=1 we=0 address=8 data_in=10 data_out=7
+t=205000	 rst_n=1 cs=1 oe=1 we=0 address=8 data_in=10 data_out=8
+t=210000	 rst_n=1 cs=1 oe=1 we=0 address=9 data_in=10 data_out=8
+t=215000	 rst_n=1 cs=1 oe=1 we=0 address=9 data_in=10 data_out=9
+t=220000	 rst_n=1 cs=1 oe=1 we=0 address=10 data_in=10 data_out=9
+t=225000	 rst_n=1 cs=1 oe=1 we=0 address=10 data_in=10 data_out=10
+$finish called at time : 250 ns
