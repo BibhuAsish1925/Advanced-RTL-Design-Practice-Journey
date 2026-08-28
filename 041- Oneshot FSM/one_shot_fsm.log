@@ -1,0 +1,13 @@
+# run 1000ns
+t=0	 state=0001 out1=0 out2=0
+t=15000	 state=0010 out1=1 out2=0
+t=25000	 state=0100 out1=0 out2=1
+t=35000	 state=1000 out1=1 out2=1
+t=45000	 state=0001 out1=0 out2=0
+t=55000	 state=0010 out1=1 out2=0
+t=65000	 state=0100 out1=0 out2=1
+t=75000	 state=1000 out1=1 out2=1
+t=85000	 state=0001 out1=0 out2=0
+t=95000	 state=0010 out1=1 out2=0
+t=105000	 state=0100 out1=0 out2=1
+$finish called at time : 110 ns 

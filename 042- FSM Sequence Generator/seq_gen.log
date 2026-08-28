@@ -1,0 +1,15 @@
+# run 1000ns
+t=0	 reset=1 seq_out=xxxxxxxx
+t=5000	 reset=1 seq_out=00000000
+t=10000	 reset=0 seq_out=00000000
+t=15000	 reset=0 seq_out=00000001
+t=25000	 reset=0 seq_out=00000010
+t=35000	 reset=0 seq_out=00000100
+t=45000	 reset=0 seq_out=00001000
+t=55000	 reset=0 seq_out=00000001
+t=65000	 reset=0 seq_out=00000010
+t=75000	 reset=0 seq_out=00000100
+t=85000	 reset=0 seq_out=00001000
+t=95000	 reset=0 seq_out=00000001
+t=105000	 reset=0 seq_out=00000010
+$finish called at time : 110 ns 
