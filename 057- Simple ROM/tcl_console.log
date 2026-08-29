@@ -1,0 +1,32 @@
+# run 1000ns
+t=0	 rst_n=0 rd_en=0 rd_addr=0 data_out=00000000
+PASS: data_out correctly reset to 0
+t=12000	 rst_n=1 rd_en=1 rd_addr=0 data_out=00000000
+t=15000	 rst_n=1 rd_en=1 rd_addr=0 data_out=10000000
+PASS: addr=0 data_out=10000000
+t=16000	 rst_n=1 rd_en=1 rd_addr=1 data_out=10000000
+t=25000	 rst_n=1 rd_en=1 rd_addr=1 data_out=10000001
+PASS: addr=1 data_out=10000001
+t=26000	 rst_n=1 rd_en=1 rd_addr=2 data_out=10000001
+t=35000	 rst_n=1 rd_en=1 rd_addr=2 data_out=10000002
+PASS: addr=2 data_out=10000002
+t=36000	 rst_n=1 rd_en=1 rd_addr=3 data_out=10000002
+t=45000	 rst_n=1 rd_en=1 rd_addr=3 data_out=10000003
+PASS: addr=3 data_out=10000003
+t=46000	 rst_n=1 rd_en=1 rd_addr=4 data_out=10000003
+t=55000	 rst_n=1 rd_en=1 rd_addr=4 data_out=10000004
+PASS: addr=4 data_out=10000004
+t=56000	 rst_n=1 rd_en=1 rd_addr=5 data_out=10000004
+t=65000	 rst_n=1 rd_en=1 rd_addr=5 data_out=10000005
+PASS: addr=5 data_out=10000005
+t=66000	 rst_n=1 rd_en=1 rd_addr=6 data_out=10000005
+t=75000	 rst_n=1 rd_en=1 rd_addr=6 data_out=10000006
+PASS: addr=6 data_out=10000006
+t=76000	 rst_n=1 rd_en=1 rd_addr=7 data_out=10000006
+t=85000	 rst_n=1 rd_en=1 rd_addr=7 data_out=10000007
+PASS: addr=7 data_out=10000007
+t=86000	 rst_n=1 rd_en=1 rd_addr=255 data_out=10000007
+t=95000	 rst_n=1 rd_en=1 rd_addr=255 data_out=100000ff
+PASS: addr=255 data_out=100000ff
+t=96000	 rst_n=1 rd_en=0 rd_addr=255 data_out=100000ff
+$finish called at time : 116 ns 
