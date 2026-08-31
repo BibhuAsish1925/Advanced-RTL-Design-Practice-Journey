@@ -369,7 +369,7 @@ These concepts are particularly important for designing reliable synchronous RTL
 
 ---
 
-# 4️⃣ Advanced FSM (41-47)
+# 4️⃣ Advanced FSM (041-047)
 
 This section moves beyond basic finite-state machines and focuses on **more advanced FSM architectures and sequence-detection techniques**. The modules provide practical experience with state encoding, transition logic, output generation, and different FSM implementation styles.
 
