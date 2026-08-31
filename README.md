@@ -430,7 +430,7 @@ These concepts are directly applicable to **protocol controllers, communication 
 
 ---
 
-# 5️⃣ Memory and Storage
+# 5️⃣ Memory and Storage (48-
 
 This is one of the major sections of the repository and focuses on implementing **memory architectures and storage structures using Verilog/SystemVerilog**.
 
