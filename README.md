@@ -513,7 +513,7 @@ This section provides a foundation for larger **memory subsystems, cache structu
 
 ---
 
-# 6️⃣ LFSR and Randomization
+# 6️⃣ LFSR and Randomization (066-
 
 This section focuses on **linear feedback shift registers, pseudo-random sequence generation, and hardware-based random-data generation**.
 
