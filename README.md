@@ -285,7 +285,7 @@ This phase builds the foundation for designing more advanced arithmetic units, D
 
 ---
 
-# 3️⃣ Clocking and Timing (30-40)
+# 3️⃣ Clocking and Timing (030-040)
 
 Clocking and timing are fundamental to reliable synchronous digital design. This phase focuses on RTL implementations involving **clock generation, frequency division, timing relationships, edge detection, and clock-control mechanisms**.
 
@@ -369,7 +369,7 @@ These concepts are particularly important for designing reliable synchronous RTL
 
 ---
 
-# 4️⃣ Advanced FSM (41-47)
+# 4️⃣ Advanced FSM (041-047)
 
 This section moves beyond basic finite-state machines and focuses on **more advanced FSM architectures and sequence-detection techniques**. The modules provide practical experience with state encoding, transition logic, output generation, and different FSM implementation styles.
 
@@ -430,7 +430,7 @@ These concepts are directly applicable to **protocol controllers, communication 
 
 ---
 
-# 5️⃣ Memory and Storage (48-
+# 5️⃣ Memory and Storage (048-065)
 
 This is one of the major sections of the repository and focuses on implementing **memory architectures and storage structures using Verilog/SystemVerilog**.
 
