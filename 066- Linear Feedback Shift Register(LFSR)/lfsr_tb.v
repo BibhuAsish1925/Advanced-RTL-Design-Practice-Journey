@@ -1,0 +1,17 @@
+module lfsr_tb;
+reg clk, reset;
+wire [7:0] lfsr_out;
+
+lfsr dut(clk, reset, lfsr_out);
+
+initial begin
+    clk = 0;
+    reset = 1;
+    #10 reset = 0;
+end
+always #5 clk = ~clk;
+initial begin 
+$monitor("\t\t clk: %b   lfsr_out: %b", clk, lfsr_out);
+#115 $finish;
+end 
+endmodule
