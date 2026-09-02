@@ -564,7 +564,7 @@ The objective of this phase is to understand how random and pseudo-random data c
 The section also establishes a foundation for more advanced topics such as **cryptographic random-number generators, hardware security modules, error-detection systems, and security-oriented RTL architectures**.
 ---
 
-# 7️⃣ DSP and Data Processing
+# 7️⃣ DSP and Data Processing (071
 
 This section introduces hardware implementations of **digital signal-processing algorithms, computational datapaths, and hardware accelerators**.
 
