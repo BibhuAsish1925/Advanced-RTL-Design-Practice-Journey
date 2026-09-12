@@ -1,0 +1,21 @@
+# run 1000ns
+PASS: Input=10 | Average=2
+PASS: Input=20 | Average=7
+PASS: Input=30 | Average=15
+PASS: Input=40 | Average=25
+PASS: Input=50 | Average=35
+PASS: Input=60 | Average=45
+PASS: Input=70 | Average=55
+PASS: Input=80 | Average=65
+PASS: Input=100 | Average=77
+PASS: Input=100 | Average=87
+PASS: Input=100 | Average=95
+PASS: Input=100 | Average=100
+PASS: Enable test | Output remained 100
+PASS: Input=90 | Average=97
+PASS: Reset test | data_out cleared to 0
+PASS: Input=5 | Average=1
+----------------------------------------
+MOVING AVERAGE FILTER TEST COMPLETED
+----------------------------------------
+$finish called at time : 166 ns 

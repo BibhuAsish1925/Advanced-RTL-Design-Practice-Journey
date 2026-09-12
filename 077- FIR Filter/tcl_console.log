@@ -1,0 +1,19 @@
+# run 1000ns
+PASS: Input=1 | Expected=1 | Output=1
+PASS: Input=2 | Expected=4 | Output=4
+PASS: Input=3 | Expected=10 | Output=10
+PASS: Input=4 | Expected=20 | Output=20
+PASS: Input=5 | Expected=30 | Output=30
+PASS: Input=6 | Expected=40 | Output=40
+PASS: Input=7 | Expected=50 | Output=50
+PASS: Input=8 | Expected=60 | Output=60
+PASS: Input=-1 | Expected=60 | Output=60
+PASS: Input=-2 | Expected=48 | Output=48
+PASS: Input=5 | Expected=30 | Output=30
+PASS: Enable test | Output remained 30
+PASS: Reset test | data_out cleared to 0
+PASS: Input=3 | Expected=3 | Output=3
+----------------------------------------
+FIR FILTER TEST COMPLETED
+----------------------------------------
+$finish called at time : 146 ns 

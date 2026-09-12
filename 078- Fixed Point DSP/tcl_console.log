@@ -1,0 +1,16 @@
+# run 1000ns
+PASS: A=2.500000 B=1.250000 OP=00 Result=3.750000
+PASS: A=5.500000 B=2.250000 OP=01 Result=3.250000
+PASS: A=2.500000 B=1.500000 OP=10 Result=3.750000
+PASS: A=-2.500000 B=1.250000 OP=00 Result=-1.250000
+PASS: A=-3.500000 B=-1.250000 OP=01 Result=-2.250000
+PASS: A=-2.000000 B=1.500000 OP=10 Result=-3.000000
+PASS: A=-0.500000 B=0.312500 OP=10 Result=-0.187500
+PASS: A=1.500000 B=2.000000 OP=11 Result=3.000000
+PASS: A=0.500000 B=4.000000 OP=11 Result=5.000000
+PASS: A=-1.000000 B=1.500000 OP=11 Result=3.500000
+PASS: Enable test | result held at 56
+-----------------------------------------
+FIXED-POINT DSP TEST COMPLETED
+-----------------------------------------
+$finish called at time : 126 ns 
