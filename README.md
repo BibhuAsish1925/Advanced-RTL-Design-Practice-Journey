@@ -646,7 +646,7 @@ These concepts provide a foundation for designing **DSP processors, AI/ML accele
 
 ---
 
-# 8️⃣ Error Detection and Correction (080- 
+# 8️⃣ Error Detection and Correction (080-084)
 
 Reliable digital systems require mechanisms for **detecting, locating, and correcting errors** that may occur during data transmission, storage, or processing.
 
