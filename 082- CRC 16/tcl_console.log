@@ -1,0 +1,16 @@
+# run 1000ns
+t=0	 valid_i=0 data_i=00 last_i=0 | valid_o=0 crc_o=0000
+t=20000	 valid_i=1 data_i=31 last_i=0 | valid_o=0 crc_o=0000
+t=30000	 valid_i=1 data_i=32 last_i=0 | valid_o=0 crc_o=0000
+t=40000	 valid_i=1 data_i=33 last_i=0 | valid_o=0 crc_o=0000
+t=50000	 valid_i=1 data_i=34 last_i=0 | valid_o=0 crc_o=0000
+t=60000	 valid_i=1 data_i=35 last_i=0 | valid_o=0 crc_o=0000
+t=70000	 valid_i=1 data_i=36 last_i=0 | valid_o=0 crc_o=0000
+t=80000	 valid_i=1 data_i=37 last_i=0 | valid_o=0 crc_o=0000
+t=90000	 valid_i=1 data_i=38 last_i=0 | valid_o=0 crc_o=0000
+t=100000	 valid_i=1 data_i=39 last_i=1 | valid_o=0 crc_o=0000
+t=105000	 valid_i=1 data_i=39 last_i=1 | valid_o=1 crc_o=4b37
+t=110000	 valid_i=0 data_i=39 last_i=0 | valid_o=1 crc_o=4b37
+PASS: CRC16/MODBUS("123456789") = 4b37 matches golden reference
+t=115000	 valid_i=0 data_i=39 last_i=0 | valid_o=0 crc_o=4b37
+$finish called at time : 131 ns

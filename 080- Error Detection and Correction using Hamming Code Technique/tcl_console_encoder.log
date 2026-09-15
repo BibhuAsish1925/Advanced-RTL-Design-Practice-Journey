@@ -1,0 +1,21 @@
+# run 1000ns
+PASS: data=0000 -> codeword=0000000
+PASS: data=0001 -> codeword=0000111
+PASS: data=0010 -> codeword=0011001
+PASS: data=0011 -> codeword=0011110
+PASS: data=0100 -> codeword=0101010
+PASS: data=0101 -> codeword=0101101
+PASS: data=0110 -> codeword=0110011
+PASS: data=0111 -> codeword=0110100
+PASS: data=1000 -> codeword=1001011
+PASS: data=1001 -> codeword=1001100
+PASS: data=1010 -> codeword=1010010
+PASS: data=1011 -> codeword=1010101
+PASS: data=1100 -> codeword=1100001
+PASS: data=1101 -> codeword=1100110
+PASS: data=1110 -> codeword=1111000
+PASS: data=1111 -> codeword=1111111
+----------------------------------------
+ALL 16 ENCODER TEST CASES PASSED
+----------------------------------------
+$stop called at time : 42 ns 

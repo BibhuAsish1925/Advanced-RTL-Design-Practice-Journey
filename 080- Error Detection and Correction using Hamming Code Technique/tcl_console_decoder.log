@@ -1,0 +1,13 @@
+# run 1000ns
+PASS [no_error]: codeword=0110011 -> is_error=0 pos=0 data=0110
+PASS [error_pos1]: codeword=0110010 -> is_error=1 pos=1 data=0110
+PASS [error_pos2]: codeword=0110001 -> is_error=1 pos=2 data=0110
+PASS [error_pos3]: codeword=0110111 -> is_error=1 pos=3 data=0110
+PASS [error_pos4]: codeword=0111011 -> is_error=1 pos=4 data=0110
+PASS [error_pos5]: codeword=0100011 -> is_error=1 pos=5 data=0110
+PASS [error_pos6]: codeword=0010011 -> is_error=1 pos=6 data=0110
+PASS [error_pos7]: codeword=1110011 -> is_error=1 pos=7 data=0110
+----------------------------------------
+ALL 8 DECODER TEST CASES PASSED
+----------------------------------------
+$finish called at time : 26 ns 
