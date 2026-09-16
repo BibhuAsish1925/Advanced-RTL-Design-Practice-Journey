@@ -1,0 +1,12 @@
+# run 1000ns
+data send is 4
+data send is 1
+data send is 9
+data send is 3
+data send is 13
+data received is 4
+data received is 1
+data received is 9
+data received is 3
+data received is 13
+$finish called at time : 0 fs

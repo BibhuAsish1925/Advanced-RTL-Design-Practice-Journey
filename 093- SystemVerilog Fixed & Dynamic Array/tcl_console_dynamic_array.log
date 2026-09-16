@@ -1,0 +1,15 @@
+# run 1000ns
+size of array is           0
+size of array is           4
+a[0]=1
+a[1]=2
+a[2]=3
+a[3]=4
+size of array is           6
+a[0]=1
+a[1]=2
+a[2]=3
+a[3]=4
+a[4]=0
+a[5]=0
+size of array is 0
