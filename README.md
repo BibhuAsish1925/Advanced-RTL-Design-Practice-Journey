@@ -707,7 +707,7 @@ This phase also provides useful background for advanced topics such as **ECC-pro
 
 ---
 
-# 9️⃣ SystemVerilog (083
+# 9️⃣ SystemVerilog (083-
 
 This section transitions from traditional Verilog HDL into **SystemVerilog**, introducing language features that are widely used in modern RTL development and functional verification.
 
