@@ -1,0 +1,14 @@
+# run 1000ns
+[A] process A is trying to get the key 0
+[A] process A got the key 0
+[B] process B is trying to get the key 0
+[A] process A has drop the key 10000
+[B] process B got the key 10000
+[B] process B has drop the key 20000
+[A] process A is trying to get the key 30000
+[A] process A got the key 30000
+[B] process B is trying to get the key 30000
+[A] process A has drop the key 40000
+[B] process B got the key 40000
+[B] process B has drop the key 50000
+$finish called at time : 60 ns 
