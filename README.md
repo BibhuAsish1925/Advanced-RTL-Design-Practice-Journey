@@ -880,7 +880,7 @@ This provides a foundation for more advanced verification techniques such as **c
 
 ---
 
-# 1️⃣1️⃣ SystemVerilog Verification
+# 1️⃣1️⃣ SystemVerilog Verification (098-099)
 
 This section focuses on developing **self-checking verification environments using SystemVerilog** rather than relying only on manual waveform inspection.
 
