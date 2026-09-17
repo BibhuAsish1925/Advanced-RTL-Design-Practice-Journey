@@ -1,0 +1,129 @@
+# run 1000ns
+[DRV] : RESET DONE
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 0 | DOUT = 0
+[DRV] : DIN = 0 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 0
+[SCO] : DIN = 0 | DOUT = 0
+[REF] : DIN = 0 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 0 | DOUT = 0
+[DRV] : DIN = 0 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 0
+[SCO] : DIN = 0 | DOUT = 0
+[REF] : DIN = 0 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 0 | DOUT = 0
+[DRV] : DIN = 0 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 0
+[SCO] : DIN = 0 | DOUT = 0
+[REF] : DIN = 0 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 0 | DOUT = 0
+[DRV] : DIN = 0 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 0
+[SCO] : DIN = 0 | DOUT = 0
+[REF] : DIN = 0 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 0 | DOUT = 0
+[DRV] : DIN = 0 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 0
+[SCO] : DIN = 0 | DOUT = 0
+[REF] : DIN = 0 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 0 | DOUT = 0
+[DRV] : DIN = 0 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 0
+[SCO] : DIN = 0 | DOUT = 0
+[REF] : DIN = 0 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[GEN] : DIN = 1 | DOUT = 0
+[DRV] : DIN = 1 | DOUT = 0
+[MON] : DIN = 0 | DOUT = 1
+[SCO] : DIN = 0 | DOUT = 1
+[REF] : DIN = 1 | DOUT = 0
+[SCO] : DATA MATCHED
+[MON] : DIN = 0 | DOUT = 1
+
+==========================================
+       DFF SIMULATION COMPLETED
+==========================================
+
+$finish called at time : 246 ns 
