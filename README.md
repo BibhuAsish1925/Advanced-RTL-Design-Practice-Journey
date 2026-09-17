@@ -831,7 +831,7 @@ UVM
 These concepts provide the foundation required for developing **advanced SystemVerilog testbenches, constrained-random verification environments, functional coverage models, and UVM-based verification systems**.
 ---
 
-# 🔟 Functional Coverage
+# 🔟 Functional Coverage (097)
 
 Functional coverage is an important part of modern **Design Verification (DV)** methodology. It provides a quantitative way to determine whether the important functional scenarios, values, and behaviors defined by the verification plan have actually been exercised during simulation.
 
