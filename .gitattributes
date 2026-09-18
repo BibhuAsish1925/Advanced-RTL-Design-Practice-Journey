@@ -1,0 +1,4 @@
+# GitHub Linguist language classification
+
+*.v  linguist-language=Verilog
+*.sv linguist-language=SystemVerilog
