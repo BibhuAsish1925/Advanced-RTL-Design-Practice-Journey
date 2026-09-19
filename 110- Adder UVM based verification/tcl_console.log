@@ -1,0 +1,99 @@
+# run 1000ns
+UVM_INFO D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+UVM_INFO D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(447) @ 0: uvm_test_top [TEST] UVM test started
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(80) @ 0: uvm_test_top.e.a.seqr@@gen [GEN] Data sent to Driver: a = 15, b = 5
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(147) @ 0: uvm_test_top.e.a.d [DRV] Trigger DUT: a = 15, b = 5
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(227) @ 10000: uvm_test_top.e.a.m [MON] Data sent to Scoreboard: a = 15, b = 5, y = 20
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(281) @ 10000: uvm_test_top.e.s [SCO] Data received from Monitor: a = 15, b = 5, y = 20
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(290) @ 10000: uvm_test_top.e.s [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(80) @ 10000: uvm_test_top.e.a.seqr@@gen [GEN] Data sent to Driver: a = 3, b = 5
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(147) @ 10000: uvm_test_top.e.a.d [DRV] Trigger DUT: a = 3, b = 5
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(227) @ 20000: uvm_test_top.e.a.m [MON] Data sent to Scoreboard: a = 3, b = 5, y = 8
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(281) @ 20000: uvm_test_top.e.s [SCO] Data received from Monitor: a = 3, b = 5, y = 8
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(290) @ 20000: uvm_test_top.e.s [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(80) @ 20000: uvm_test_top.e.a.seqr@@gen [GEN] Data sent to Driver: a = 5, b = 14
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(147) @ 20000: uvm_test_top.e.a.d [DRV] Trigger DUT: a = 5, b = 14
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(227) @ 30000: uvm_test_top.e.a.m [MON] Data sent to Scoreboard: a = 5, b = 14, y = 19
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(281) @ 30000: uvm_test_top.e.s [SCO] Data received from Monitor: a = 5, b = 14, y = 19
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(290) @ 30000: uvm_test_top.e.s [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(80) @ 30000: uvm_test_top.e.a.seqr@@gen [GEN] Data sent to Driver: a = 1, b = 0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(147) @ 30000: uvm_test_top.e.a.d [DRV] Trigger DUT: a = 1, b = 0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(227) @ 40000: uvm_test_top.e.a.m [MON] Data sent to Scoreboard: a = 1, b = 0, y = 1
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(281) @ 40000: uvm_test_top.e.s [SCO] Data received from Monitor: a = 1, b = 0, y = 1
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(290) @ 40000: uvm_test_top.e.s [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(80) @ 40000: uvm_test_top.e.a.seqr@@gen [GEN] Data sent to Driver: a = 4, b = 3
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(147) @ 40000: uvm_test_top.e.a.d [DRV] Trigger DUT: a = 4, b = 3
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(227) @ 50000: uvm_test_top.e.a.m [MON] Data sent to Scoreboard: a = 4, b = 3, y = 7
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(281) @ 50000: uvm_test_top.e.s [SCO] Data received from Monitor: a = 4, b = 3, y = 7
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(290) @ 50000: uvm_test_top.e.s [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(80) @ 50000: uvm_test_top.e.a.seqr@@gen [GEN] Data sent to Driver: a = 0, b = 2
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(147) @ 50000: uvm_test_top.e.a.d [DRV] Trigger DUT: a = 0, b = 2
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(227) @ 60000: uvm_test_top.e.a.m [MON] Data sent to Scoreboard: a = 0, b = 2, y = 2
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(281) @ 60000: uvm_test_top.e.s [SCO] Data received from Monitor: a = 0, b = 2, y = 2
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(290) @ 60000: uvm_test_top.e.s [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(80) @ 60000: uvm_test_top.e.a.seqr@@gen [GEN] Data sent to Driver: a = 14, b = 3
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(147) @ 60000: uvm_test_top.e.a.d [DRV] Trigger DUT: a = 14, b = 3
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(227) @ 70000: uvm_test_top.e.a.m [MON] Data sent to Scoreboard: a = 14, b = 3, y = 17
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(281) @ 70000: uvm_test_top.e.s [SCO] Data received from Monitor: a = 14, b = 3, y = 17
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(290) @ 70000: uvm_test_top.e.s [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(80) @ 70000: uvm_test_top.e.a.seqr@@gen [GEN] Data sent to Driver: a = 7, b = 3
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(147) @ 70000: uvm_test_top.e.a.d [DRV] Trigger DUT: a = 7, b = 3
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(227) @ 80000: uvm_test_top.e.a.m [MON] Data sent to Scoreboard: a = 7, b = 3, y = 10
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(281) @ 80000: uvm_test_top.e.s [SCO] Data received from Monitor: a = 7, b = 3, y = 10
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(290) @ 80000: uvm_test_top.e.s [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(80) @ 80000: uvm_test_top.e.a.seqr@@gen [GEN] Data sent to Driver: a = 9, b = 11
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(147) @ 80000: uvm_test_top.e.a.d [DRV] Trigger DUT: a = 9, b = 11
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(227) @ 90000: uvm_test_top.e.a.m [MON] Data sent to Scoreboard: a = 9, b = 11, y = 20
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(281) @ 90000: uvm_test_top.e.s [SCO] Data received from Monitor: a = 9, b = 11, y = 20
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(290) @ 90000: uvm_test_top.e.s [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(80) @ 90000: uvm_test_top.e.a.seqr@@gen [GEN] Data sent to Driver: a = 6, b = 15
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(147) @ 90000: uvm_test_top.e.a.d [DRV] Trigger DUT: a = 6, b = 15
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(227) @ 100000: uvm_test_top.e.a.m [MON] Data sent to Scoreboard: a = 6, b = 15, y = 21
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(281) @ 100000: uvm_test_top.e.s [SCO] Data received from Monitor: a = 6, b = 15, y = 21
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(290) @ 100000: uvm_test_top.e.s [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(227) @ 110000: uvm_test_top.e.a.m [MON] Data sent to Scoreboard: a = 6, b = 15, y = 21
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(281) @ 110000: uvm_test_top.e.s [SCO] Data received from Monitor: a = 6, b = 15, y = 21
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(290) @ 110000: uvm_test_top.e.s [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/adder_tb.sv(459) @ 110000: uvm_test_top [TEST] UVM test completed
+UVM_INFO D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 110000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 110000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   59
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DRV]    10
+[GEN]    10
+[MON]    11
+[RNTST]     1
+[SCO]    22
+[TEST]     2
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 110 ns
