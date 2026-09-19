@@ -1,0 +1,93 @@
+# run 1000ns
+UVM_INFO D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test adder_test...
+UVM_INFO D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(67) @ 0: uvm_test_top.env.agt.seqr@@gen [GEN] Sending to Driver: a = 7, b = 6
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(140) @ 5000: uvm_test_top.env.agt.drv [DRV] Driving DUT: a = 7, b = 6
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(67) @ 5000: uvm_test_top.env.agt.seqr@@gen [GEN] Sending to Driver: a = 4, b = 0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(140) @ 15000: uvm_test_top.env.agt.drv [DRV] Driving DUT: a = 4, b = 0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(67) @ 15000: uvm_test_top.env.agt.seqr@@gen [GEN] Sending to Driver: a = 6, b = 9
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(229) @ 16000: uvm_test_top.env.agt.mon [MON] Monitor: a = 7, b = 6, y = 0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(279) @ 16000: uvm_test_top.env.sb [SCO] Received: a = 7, b = 6, y = 0
+UVM_ERROR D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(301) @ 16000: uvm_test_top.env.sb [SCO] TEST FAILED: Expected = 13, Actual = 0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(140) @ 25000: uvm_test_top.env.agt.drv [DRV] Driving DUT: a = 6, b = 9
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(67) @ 25000: uvm_test_top.env.agt.seqr@@gen [GEN] Sending to Driver: a = 6, b = 9
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(229) @ 26000: uvm_test_top.env.agt.mon [MON] Monitor: a = 4, b = 0, y = 4
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(279) @ 26000: uvm_test_top.env.sb [SCO] Received: a = 4, b = 0, y = 4
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(288) @ 26000: uvm_test_top.env.sb [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(140) @ 35000: uvm_test_top.env.agt.drv [DRV] Driving DUT: a = 6, b = 9
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(67) @ 35000: uvm_test_top.env.agt.seqr@@gen [GEN] Sending to Driver: a = 3, b = 2
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(229) @ 36000: uvm_test_top.env.agt.mon [MON] Monitor: a = 6, b = 9, y = 15
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(279) @ 36000: uvm_test_top.env.sb [SCO] Received: a = 6, b = 9, y = 15
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(288) @ 36000: uvm_test_top.env.sb [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(140) @ 45000: uvm_test_top.env.agt.drv [DRV] Driving DUT: a = 3, b = 2
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(67) @ 45000: uvm_test_top.env.agt.seqr@@gen [GEN] Sending to Driver: a = 0, b = 2
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(229) @ 46000: uvm_test_top.env.agt.mon [MON] Monitor: a = 6, b = 9, y = 15
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(279) @ 46000: uvm_test_top.env.sb [SCO] Received: a = 6, b = 9, y = 15
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(288) @ 46000: uvm_test_top.env.sb [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(140) @ 55000: uvm_test_top.env.agt.drv [DRV] Driving DUT: a = 0, b = 2
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(67) @ 55000: uvm_test_top.env.agt.seqr@@gen [GEN] Sending to Driver: a = 7, b = 6
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(229) @ 56000: uvm_test_top.env.agt.mon [MON] Monitor: a = 3, b = 2, y = 5
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(279) @ 56000: uvm_test_top.env.sb [SCO] Received: a = 3, b = 2, y = 5
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(288) @ 56000: uvm_test_top.env.sb [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(140) @ 65000: uvm_test_top.env.agt.drv [DRV] Driving DUT: a = 7, b = 6
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(67) @ 65000: uvm_test_top.env.agt.seqr@@gen [GEN] Sending to Driver: a = 2, b = 5
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(229) @ 66000: uvm_test_top.env.agt.mon [MON] Monitor: a = 0, b = 2, y = 2
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(279) @ 66000: uvm_test_top.env.sb [SCO] Received: a = 0, b = 2, y = 2
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(288) @ 66000: uvm_test_top.env.sb [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(140) @ 75000: uvm_test_top.env.agt.drv [DRV] Driving DUT: a = 2, b = 5
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(67) @ 75000: uvm_test_top.env.agt.seqr@@gen [GEN] Sending to Driver: a = 1, b = 0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(229) @ 76000: uvm_test_top.env.agt.mon [MON] Monitor: a = 7, b = 6, y = 13
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(279) @ 76000: uvm_test_top.env.sb [SCO] Received: a = 7, b = 6, y = 13
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(288) @ 76000: uvm_test_top.env.sb [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(140) @ 85000: uvm_test_top.env.agt.drv [DRV] Driving DUT: a = 1, b = 0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(67) @ 85000: uvm_test_top.env.agt.seqr@@gen [GEN] Sending to Driver: a = 12, b = 4
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(229) @ 86000: uvm_test_top.env.agt.mon [MON] Monitor: a = 2, b = 5, y = 7
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(279) @ 86000: uvm_test_top.env.sb [SCO] Received: a = 2, b = 5, y = 7
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(288) @ 86000: uvm_test_top.env.sb [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(140) @ 95000: uvm_test_top.env.agt.drv [DRV] Driving DUT: a = 12, b = 4
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(229) @ 96000: uvm_test_top.env.agt.mon [MON] Monitor: a = 1, b = 0, y = 1
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(279) @ 96000: uvm_test_top.env.sb [SCO] Received: a = 1, b = 0, y = 1
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(288) @ 96000: uvm_test_top.env.sb [SCO] TEST PASSED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(229) @ 106000: uvm_test_top.env.agt.mon [MON] Monitor: a = 12, b = 4, y = 16
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(279) @ 106000: uvm_test_top.env.sb [SCO] Received: a = 12, b = 4, y = 16
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/seq_adder_tb.sv(288) @ 106000: uvm_test_top.env.sb [SCO] TEST PASSED
+UVM_INFO D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 115000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 115000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   53
+UVM_WARNING :    0
+UVM_ERROR :    1
+UVM_FATAL :    0
+** Report counts by id
+[DRV]    10
+[GEN]    10
+[MON]    10
+[RNTST]     1
+[SCO]    20
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 115 ns 
