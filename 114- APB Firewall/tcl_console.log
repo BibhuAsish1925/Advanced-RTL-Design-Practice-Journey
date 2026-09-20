@@ -1,0 +1,45 @@
+# run 1000ns
+
+========================================
+RESET
+========================================
+
+----------------------------------------
+TEST 1: ALLOWED WRITE
+----------------------------------------
+PASS: Allowed WRITE forwarded
+
+----------------------------------------
+TEST 2: ALLOWED READ
+----------------------------------------
+PASS: Allowed READ returned cafebabe
+
+----------------------------------------
+TEST 3: LOWER ADDRESS BOUNDARY
+----------------------------------------
+PASS: Lower boundary allowed
+
+----------------------------------------
+TEST 4: UPPER ADDRESS BOUNDARY
+----------------------------------------
+PASS: Upper boundary allowed
+
+----------------------------------------
+TEST 5: BLOCKED ADDRESS - BELOW RANGE
+----------------------------------------
+PASS: Below-range address blocked
+
+----------------------------------------
+TEST 6: BLOCKED ADDRESS - ABOVE RANGE
+----------------------------------------
+PASS: Above-range address blocked
+
+----------------------------------------
+TEST 7: DOWNSTREAM SLAVE ERROR
+----------------------------------------
+PASS: Firewall itself did not generate an error
+
+========================================
+APB FIREWALL TESTBENCH COMPLETED
+========================================
+$finish called at time : 235 ns

@@ -1,0 +1,46 @@
+# run 1000ns
+
+----------------------------------------
+TEST 1: RESET
+----------------------------------------
+PASS: Key cleared by reset
+
+----------------------------------------
+TEST 2: LOAD KEY
+----------------------------------------
+PASS: Key loaded = 0123456789abcdef1122334455667788
+
+----------------------------------------
+TEST 3: KEY RETENTION
+----------------------------------------
+PASS: Key retained
+
+----------------------------------------
+TEST 4: SOFTWARE ZEROIZE
+----------------------------------------
+PASS: Software zeroize cleared key
+
+----------------------------------------
+TEST 5: RELOAD KEY
+----------------------------------------
+PASS: New key loaded = a5a5a5a55a5a5a5adeadbeefcafe1234
+
+----------------------------------------
+TEST 6: ASYNCHRONOUS TAMPER
+----------------------------------------
+PASS: Tamper asynchronously cleared key
+
+----------------------------------------
+TEST 7: RELOAD AFTER TAMPER
+----------------------------------------
+PASS: Key successfully reloaded
+
+----------------------------------------
+TEST 8: FINAL RESET
+----------------------------------------
+PASS: Final reset cleared key
+
+========================================
+ALL TESTS COMPLETED
+========================================
+$finish called at time : 68 ns 

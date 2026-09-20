@@ -1,0 +1,21 @@
+# run 1000ns
+
+========================================
+GF(2^8) ITA INVERSE TEST
+========================================
+PASS: a = 00 -> inv = 00
+PASS: a = 01 -> inv = 01
+PASS: a = 02 -> inv = 8d
+PASS: a = 03 -> inv = f6
+PASS: a = 53 -> inv = ca
+PASS: a = ca -> inv = 53
+PASS: a = ff -> inv = 1c
+Error: FAIL: a = 10, expected inv = e1, got = 74
+Time: 80 ns  Iteration: 0  Process: /gf_inv_ita_tb/check_inverse  Scope: gf_inv_ita_tb.check_inverse  File: D:/Downloads/future projects/My adv. practice/phase 13/phase 13.srcs/sim_1/new/gf_inv_ita_tb.sv Line: 33
+Error: FAIL: a = 20, expected inv = a0, got = 3a
+Time: 90 ns  Iteration: 0  Process: /gf_inv_ita_tb/check_inverse  Scope: gf_inv_ita_tb.check_inverse  File: D:/Downloads/future projects/My adv. practice/phase 13/phase 13.srcs/sim_1/new/gf_inv_ita_tb.sv Line: 33
+
+========================================
+GF(2^8) ITA TEST COMPLETED
+========================================
+$finish called at time : 90 ns
