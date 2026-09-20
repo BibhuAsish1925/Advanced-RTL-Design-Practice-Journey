@@ -1,0 +1,186 @@
+# run 1000ns
+UVM_INFO D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test apb_test...
+UVM_INFO D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(554) @ 0: uvm_test_top.env.agent.drv [DRV] System Reset Active
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(554) @ 10000: uvm_test_top.env.agent.drv [DRV] System Reset Active
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(783) @ 10000: uvm_test_top.env.agent.mon [MON] SYSTEM RESET DETECTED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(946) @ 10000: uvm_test_top.env.scoreboard [SCO] REFERENCE MEMORY RESET
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(783) @ 30000: uvm_test_top.env.agent.mon [MON] SYSTEM RESET DETECTED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(946) @ 30000: uvm_test_top.env.scoreboard [SCO] REFERENCE MEMORY RESET
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(554) @ 30000: uvm_test_top.env.agent.drv [DRV] System Reset Active
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(554) @ 50000: uvm_test_top.env.agent.drv [DRV] System Reset Active
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(783) @ 50000: uvm_test_top.env.agent.mon [MON] SYSTEM RESET DETECTED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(946) @ 50000: uvm_test_top.env.scoreboard [SCO] REFERENCE MEMORY RESET
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(783) @ 70000: uvm_test_top.env.agent.mon [MON] SYSTEM RESET DETECTED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(946) @ 70000: uvm_test_top.env.scoreboard [SCO] REFERENCE MEMORY RESET
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(554) @ 70000: uvm_test_top.env.agent.drv [DRV] System Reset Active
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(783) @ 90000: uvm_test_top.env.agent.mon [MON] SYSTEM RESET DETECTED
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(946) @ 90000: uvm_test_top.env.scoreboard [SCO] REFERENCE MEMORY RESET
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 170000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=18 data=2283513740 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 170000: uvm_test_top.env.agent.mon [MON] WRITE: addr=18 data=2283513740 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 170000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=18 data=2283513740
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 230000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=31 data=2938127494 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 230000: uvm_test_top.env.agent.mon [MON] WRITE: addr=31 data=2938127494 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 230000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=31 data=2938127494
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 290000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=8 data=4247354968 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 290000: uvm_test_top.env.agent.mon [MON] WRITE: addr=8 data=4247354968 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 290000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=8 data=4247354968
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 350000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=24 data=842487001 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 350000: uvm_test_top.env.agent.mon [MON] WRITE: addr=24 data=842487001 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 350000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=24 data=842487001
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 410000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=19 data=2387200115 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 410000: uvm_test_top.env.agent.mon [MON] WRITE: addr=19 data=2387200115 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 410000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=19 data=2387200115
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 470000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=12 data=291559622 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 470000: uvm_test_top.env.agent.mon [MON] WRITE: addr=12 data=291559622 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 470000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=12 data=291559622
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 530000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=7 data=4219241992 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 530000: uvm_test_top.env.agent.mon [MON] WRITE: addr=7 data=4219241992 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 530000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=7 data=4219241992
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 590000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=23 data=3432828977 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 590000: uvm_test_top.env.agent.mon [MON] WRITE: addr=23 data=3432828977 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 590000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=23 data=3432828977
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 650000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=1 data=2227287873 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 650000: uvm_test_top.env.agent.mon [MON] WRITE: addr=1 data=2227287873 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 650000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=1 data=2227287873
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 710000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=12 data=602618628 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 710000: uvm_test_top.env.agent.mon [MON] WRITE: addr=12 data=602618628 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 710000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=12 data=602618628
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 770000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=13 data=706305003 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 770000: uvm_test_top.env.agent.mon [MON] WRITE: addr=13 data=706305003 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 770000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=13 data=706305003
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 830000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=21 data=2538346861 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 830000: uvm_test_top.env.agent.mon [MON] WRITE: addr=21 data=2538346861 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 830000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=21 data=2538346861
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 890000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=12 data=3951260663 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 890000: uvm_test_top.env.agent.mon [MON] WRITE: addr=12 data=3951260663 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 890000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=12 data=3951260663
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 950000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=30 data=650079052 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 950000: uvm_test_top.env.agent.mon [MON] WRITE: addr=30 data=650079052 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 950000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=30 data=650079052
+------------------------------------------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'apb_ram_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1787.594 ; gain = 0.000
+run 5000ns
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(627) @ 1010000: uvm_test_top.env.agent.drv [DRV] WRITE: addr=4 data=2298478498 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(826) @ 1010000: uvm_test_top.env.agent.mon [MON] WRITE: addr=4 data=2298478498 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(982) @ 1010000: uvm_test_top.env.scoreboard [SCO] WRITE: addr=4 data=2298478498
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1070000: uvm_test_top.env.agent.drv [DRV] READ: addr=7 data=4219241992 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1070000: uvm_test_top.env.agent.mon [MON] READ: addr=7 data=4219241992 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1070000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=7 expected=4219241992 actual=4219241992
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1130000: uvm_test_top.env.agent.drv [DRV] READ: addr=24 data=842487001 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1130000: uvm_test_top.env.agent.mon [MON] READ: addr=24 data=842487001 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1130000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=24 expected=842487001 actual=842487001
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1190000: uvm_test_top.env.agent.drv [DRV] READ: addr=21 data=2538346861 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1190000: uvm_test_top.env.agent.mon [MON] READ: addr=21 data=2538346861 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1190000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=21 expected=2538346861 actual=2538346861
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1250000: uvm_test_top.env.agent.drv [DRV] READ: addr=8 data=4247354968 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1250000: uvm_test_top.env.agent.mon [MON] READ: addr=8 data=4247354968 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1250000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=8 expected=4247354968 actual=4247354968
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1310000: uvm_test_top.env.agent.drv [DRV] READ: addr=10 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1310000: uvm_test_top.env.agent.mon [MON] READ: addr=10 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1310000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=10 expected=0 actual=0
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1370000: uvm_test_top.env.agent.drv [DRV] READ: addr=28 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1370000: uvm_test_top.env.agent.mon [MON] READ: addr=28 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1370000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=28 expected=0 actual=0
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1430000: uvm_test_top.env.agent.drv [DRV] READ: addr=21 data=2538346861 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1430000: uvm_test_top.env.agent.mon [MON] READ: addr=21 data=2538346861 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1430000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=21 expected=2538346861 actual=2538346861
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1490000: uvm_test_top.env.agent.drv [DRV] READ: addr=21 data=2538346861 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1490000: uvm_test_top.env.agent.mon [MON] READ: addr=21 data=2538346861 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1490000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=21 expected=2538346861 actual=2538346861
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1550000: uvm_test_top.env.agent.drv [DRV] READ: addr=3 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1550000: uvm_test_top.env.agent.mon [MON] READ: addr=3 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1550000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=3 expected=0 actual=0
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1610000: uvm_test_top.env.agent.drv [DRV] READ: addr=21 data=2538346861 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1610000: uvm_test_top.env.agent.mon [MON] READ: addr=21 data=2538346861 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1610000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=21 expected=2538346861 actual=2538346861
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1670000: uvm_test_top.env.agent.drv [DRV] READ: addr=17 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1670000: uvm_test_top.env.agent.mon [MON] READ: addr=17 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1670000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=17 expected=0 actual=0
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1730000: uvm_test_top.env.agent.drv [DRV] READ: addr=11 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1730000: uvm_test_top.env.agent.mon [MON] READ: addr=11 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1730000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=11 expected=0 actual=0
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1790000: uvm_test_top.env.agent.drv [DRV] READ: addr=22 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1790000: uvm_test_top.env.agent.mon [MON] READ: addr=22 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1790000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=22 expected=0 actual=0
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1850000: uvm_test_top.env.agent.drv [DRV] READ: addr=4 data=2298478498 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1850000: uvm_test_top.env.agent.mon [MON] READ: addr=4 data=2298478498 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1850000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=4 expected=2298478498 actual=2298478498
+------------------------------------------------------------
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(671) @ 1910000: uvm_test_top.env.agent.drv [DRV] READ: addr=27 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(869) @ 1910000: uvm_test_top.env.agent.mon [MON] READ: addr=27 data=0 slverr=0
+UVM_INFO D:/Downloads/future projects/My adv. practice/phase 12/phase 12.srcs/sim_1/new/apb_ram_tb.sv(1021) @ 1910000: uvm_test_top.env.scoreboard [SCO] DATA MATCHED: addr=27 expected=0 actual=0
+------------------------------------------------------------
+UVM_INFO D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 2010000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 2010000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  109
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DRV]    35
+[MON]    35
+[RNTST]     1
+[SCO]    35
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 2010 ns : File "D:/Downloads/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
