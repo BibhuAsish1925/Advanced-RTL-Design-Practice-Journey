@@ -1,0 +1,31 @@
+# run 1000ns
+t=0	 tr_bit=0 sr=0000000000000000 sig_valid=0 sig_value=0000000000000000
+t=20000	 tr_bit=1 sr=0000000000000000 sig_valid=0 sig_value=0000000000000000
+t=25000	 tr_bit=1 sr=0000000000000001 sig_valid=0 sig_value=0000000000000000
+t=35000	 tr_bit=1 sr=0000000000000003 sig_valid=0 sig_value=0000000000000000
+t=45000	 tr_bit=1 sr=0000000000000007 sig_valid=0 sig_value=0000000000000000
+t=55000	 tr_bit=1 sr=000000000000000f sig_valid=0 sig_value=0000000000000000
+t=65000	 tr_bit=1 sr=000000000000001f sig_valid=0 sig_value=0000000000000000
+t=75000	 tr_bit=1 sr=000000000000003f sig_valid=0 sig_value=0000000000000000
+t=85000	 tr_bit=1 sr=000000000000007f sig_valid=0 sig_value=0000000000000000
+t=95000	 tr_bit=1 sr=00000000000000ff sig_valid=0 sig_value=0000000000000000
+PASS: wrong sequence correctly did not trigger
+t=105000	 tr_bit=1 sr=00000000000001ff sig_valid=0 sig_value=0000000000000000
+t=115000	 tr_bit=1 sr=00000000000003ff sig_valid=0 sig_value=0000000000000000
+t=120000	 tr_bit=0 sr=00000000000003ff sig_valid=0 sig_value=0000000000000000
+t=125000	 tr_bit=0 sr=00000000000007fe sig_valid=0 sig_value=0000000000000000
+t=130000	 tr_bit=1 sr=00000000000007fe sig_valid=0 sig_value=0000000000000000
+t=135000	 tr_bit=1 sr=0000000000000ffd sig_valid=0 sig_value=0000000000000000
+t=140000	 tr_bit=0 sr=0000000000000ffd sig_valid=0 sig_value=0000000000000000
+t=145000	 tr_bit=0 sr=0000000000001ffa sig_valid=0 sig_value=0000000000000000
+t=155000	 tr_bit=0 sr=0000000000003ff4 sig_valid=0 sig_value=0000000000000000
+t=160000	 tr_bit=1 sr=0000000000003ff4 sig_valid=0 sig_value=0000000000000000
+t=165000	 tr_bit=1 sr=0000000000007fe9 sig_valid=0 sig_value=0000000000000000
+t=170000	 tr_bit=0 sr=0000000000007fe9 sig_valid=0 sig_value=0000000000000000
+t=175000	 tr_bit=0 sr=000000000000ffd2 sig_valid=0 sig_value=0000000000000000
+t=180000	 tr_bit=1 sr=000000000000ffd2 sig_valid=0 sig_value=0000000000000000
+t=185000	 tr_bit=1 sr=000000000001ffa5 sig_valid=0 sig_value=0000000000000000
+FAIL: correct sequence did not trigger as expected (sig_valid=0 sig_value=0000000000000000)
+t=195000	 tr_bit=1 sr=000000000003ff4b sig_valid=0 sig_value=0000000000000000
+PASS: sig_valid correctly pulsed for exactly one cycle
+$finish called at time : 220 ns
