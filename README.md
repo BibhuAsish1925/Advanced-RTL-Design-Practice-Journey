@@ -1131,7 +1131,7 @@ The knowledge developed in this section provides a foundation for more advanced 
 - SoC-level Design Verification
 ---
 
-# 1️⃣3️⃣ Hardware Security and Cryptography
+# 1️⃣3️⃣ Hardware Security and Cryptography (113-
 
 This is the final and one of the most advanced sections of the repository. It focuses on implementing **hardware security primitives, cryptographic arithmetic, secure datapaths, and cryptographic algorithms using RTL**.
 
