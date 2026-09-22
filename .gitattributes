@@ -2,3 +2,6 @@
 
 *.v  linguist-language=Verilog
 *.sv linguist-language=SystemVerilog
+
+# Exclude generated Vivado/Xilinx UVM package files from language statistics
+**/xlnx_uvm_package.sv linguist-generated=true
