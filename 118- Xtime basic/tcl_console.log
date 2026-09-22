@@ -1,0 +1,14 @@
+# run 1000ns
+t=0	 a=57 result=ae
+PASS [ 1: xtime(57)=AE]: xtime(57) = ae
+t=1000	 a=ae result=47
+PASS [ 2: xtime(AE)=47]: xtime(ae) = 47
+t=2000	 a=00 result=00
+PASS [zero input]: xtime(00) = 00
+t=3000	 a=01 result=02
+PASS [SB, simple shift]: xtime(01) = 02
+t=4000	 a=80 result=1b
+PASS [ (shift gives 0)]: xtime(80) = 1b
+t=5000	 a=ff result=e5
+PASS [all ones]: xtime(ff) = e5
+$finish called at time : 16 ns 
