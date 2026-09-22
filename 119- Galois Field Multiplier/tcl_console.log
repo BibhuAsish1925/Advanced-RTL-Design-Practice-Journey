@@ -1,0 +1,111 @@
+# run 1000ns
+
+
+================================================
+     GF(2^4) GALOIS MULTIPLIER TESTBENCH
+     Polynomial: x^4 + x + 1
+================================================
+
+========================================
+TEST 1: ZERO MULTIPLICATION
+========================================
+PASS: a=0 b=0 | product=0
+PASS: a=0 b=0 | product=0
+PASS: a=0 b=1 | product=0
+PASS: a=1 b=0 | product=0
+PASS: a=0 b=2 | product=0
+PASS: a=2 b=0 | product=0
+PASS: a=0 b=3 | product=0
+PASS: a=3 b=0 | product=0
+PASS: a=0 b=4 | product=0
+PASS: a=4 b=0 | product=0
+PASS: a=0 b=5 | product=0
+PASS: a=5 b=0 | product=0
+PASS: a=0 b=6 | product=0
+PASS: a=6 b=0 | product=0
+PASS: a=0 b=7 | product=0
+PASS: a=7 b=0 | product=0
+PASS: a=0 b=8 | product=0
+PASS: a=8 b=0 | product=0
+PASS: a=0 b=9 | product=0
+PASS: a=9 b=0 | product=0
+PASS: a=0 b=a | product=0
+PASS: a=a b=0 | product=0
+PASS: a=0 b=b | product=0
+PASS: a=b b=0 | product=0
+PASS: a=0 b=c | product=0
+PASS: a=c b=0 | product=0
+PASS: a=0 b=d | product=0
+PASS: a=d b=0 | product=0
+PASS: a=0 b=e | product=0
+PASS: a=e b=0 | product=0
+PASS: a=0 b=f | product=0
+PASS: a=f b=0 | product=0
+
+========================================
+TEST 2: IDENTITY ELEMENT
+========================================
+PASS: a=0 b=1 | product=0
+PASS: a=1 b=0 | product=0
+PASS: a=1 b=1 | product=1
+PASS: a=1 b=1 | product=1
+PASS: a=2 b=1 | product=2
+PASS: a=1 b=2 | product=2
+PASS: a=3 b=1 | product=3
+PASS: a=1 b=3 | product=3
+PASS: a=4 b=1 | product=4
+PASS: a=1 b=4 | product=4
+PASS: a=5 b=1 | product=5
+PASS: a=1 b=5 | product=5
+PASS: a=6 b=1 | product=6
+PASS: a=1 b=6 | product=6
+PASS: a=7 b=1 | product=7
+PASS: a=1 b=7 | product=7
+PASS: a=8 b=1 | product=8
+PASS: a=1 b=8 | product=8
+PASS: a=9 b=1 | product=9
+PASS: a=1 b=9 | product=9
+PASS: a=a b=1 | product=a
+PASS: a=1 b=a | product=a
+PASS: a=b b=1 | product=b
+PASS: a=1 b=b | product=b
+PASS: a=c b=1 | product=c
+PASS: a=1 b=c | product=c
+PASS: a=d b=1 | product=d
+PASS: a=1 b=d | product=d
+PASS: a=e b=1 | product=e
+PASS: a=1 b=e | product=e
+PASS: a=f b=1 | product=f
+PASS: a=1 b=f | product=f
+
+========================================
+TEST 3: DIRECTED TEST CASES
+========================================
+PASS: a=2 b=2 | product=4
+PASS: a=3 b=4 | product=c
+PASS: a=5 b=7 | product=8
+PASS: a=6 b=9 | product=3
+PASS: a=a b=b | product=2
+PASS: a=c b=d | product=3
+PASS: a=f b=f | product=a
+
+========================================
+TEST 4: COMMUTATIVE PROPERTY
+========================================
+PASS: Commutative property verified
+
+========================================
+TEST 5: EXHAUSTIVE 256-CASE TEST
+========================================
+PASS: All 256 combinations verified
+
+========================================
+TEST 6: RANDOM TESTING
+========================================
+PASS: 100 random cases verified
+
+================================================
+FINAL RESULT: PASS
+================================================
+
+$finish called at time : 939 ns 
