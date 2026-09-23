@@ -1,0 +1,35 @@
+# run 1000ns
+==============================================
+ Montgomery Ladder Test
+==============================================
+PASS: X=05 E=00 N=13 | Y=01
+PASS: X=25 E=00 N=1f | Y=01
+PASS: X=05 E=01 N=13 | Y=05
+PASS: X=0a E=01 N=17 | Y=0a
+PASS: X=02 E=03 N=13 | Y=08
+PASS: X=02 E=08 N=17 | Y=03
+PASS: X=03 E=05 N=1f | Y=1a
+PASS: X=05 E=0a N=17 | Y=09
+PASS: X=07 E=0f N=19 | Y=12
+PASS: X=0b E=10 N=1d | Y=18
+PASS: X=12 E=13 N=25 | Y=13
+PASS: X=25 E=07 N=2f | Y=02
+PASS: X=55 E=33 N=7f | Y=36
+PASS: X=aa E=55 N=f1 | Y=58
+PASS: X=fe E=20 N=fd | Y=01
+PASS: X=ff E=ff N=fd | Y=8e
+PASS: X=00 E=01 N=17 | Y=00
+PASS: X=00 E=08 N=17 | Y=00
+PASS: X=00 E=ff N=1f | Y=00
+PASS: X=01 E=10 N=17 | Y=01
+PASS: X=01 E=ff N=7f | Y=01
+PASS: X=55 E=aa N=01 | Y=00
+PASS: X=ff E=ff N=01 | Y=00
+PASS: X=55 E=aa N=00 | Y=00
+----------------------------------------------
+Random Tests
+----------------------------------------------
+==============================================
+ALL TESTS PASSED
+==============================================
+$finish called at time : 124 ns 

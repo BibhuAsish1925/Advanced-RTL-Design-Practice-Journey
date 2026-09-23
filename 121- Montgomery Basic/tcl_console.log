@@ -1,0 +1,27 @@
+# run 1000ns
+==============================================
+ Basic Modular Multiplier Test
+==============================================
+PASS: A=00 B=25 N=17 | C=00
+PASS: A=25 B=00 N=17 | C=00
+PASS: A=01 B=25 N=17 | C=0e
+PASS: A=25 B=01 N=17 | C=0e
+PASS: A=05 B=07 N=13 | C=10
+PASS: A=0a B=0b N=17 | C=12
+PASS: A=12 B=0f N=1d | C=09
+PASS: A=25 B=13 N=1f | C=15
+PASS: A=55 B=33 N=7f | C=11
+PASS: A=aa B=55 N=f1 | C=e7
+PASS: A=ff B=ff N=fd | C=04
+PASS: A=fe B=02 N=ff | C=fd
+PASS: A=ff B=01 N=ff | C=00
+PASS: A=80 B=80 N=7f | C=01
+PASS: A=55 B=aa N=01 | C=00
+PASS: A=55 B=aa N=00 | C=00
+----------------------------------------------
+Random Tests
+----------------------------------------------
+==============================================
+ALL TESTS PASSED
+==============================================
+$finish called at time : 116 ns 

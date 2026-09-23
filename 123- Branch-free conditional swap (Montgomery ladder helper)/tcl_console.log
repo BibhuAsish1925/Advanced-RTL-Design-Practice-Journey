@@ -1,0 +1,21 @@
+# run 1000ns
+
+================================================
+ Constant-Time Conditional Swap Test
+ Width = 256 bits
+================================================
+
+PASS | SEL=0 | A_IN=1111111111111111222222222222222233333333333333334444444444444444 | B_IN=aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbccccccccccccccccdddddddddddddddd | A_OUT=1111111111111111222222222222222233333333333333334444444444444444 | B_OUT=aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbccccccccccccccccdddddddddddddddd
+PASS | SEL=1 | A_IN=1111111111111111222222222222222233333333333333334444444444444444 | B_IN=aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbccccccccccccccccdddddddddddddddd | A_OUT=aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbccccccccccccccccdddddddddddddddd | B_OUT=1111111111111111222222222222222233333333333333334444444444444444
+PASS | SEL=0 | A_IN=0000000000000000000000000000000000000000000000000000000000000000 | B_IN=ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff | A_OUT=0000000000000000000000000000000000000000000000000000000000000000 | B_OUT=ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+PASS | SEL=1 | A_IN=0000000000000000000000000000000000000000000000000000000000000000 | B_IN=ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff | A_OUT=ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff | B_OUT=0000000000000000000000000000000000000000000000000000000000000000
+PASS | SEL=0 | A_IN=123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0 | B_IN=123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0 | A_OUT=123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0 | B_OUT=123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0
+PASS | SEL=1 | A_IN=123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0 | B_IN=123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0 | A_OUT=123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0 | B_OUT=123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0
+PASS | SEL=0 | A_IN=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa | B_IN=5555555555555555555555555555555555555555555555555555555555555555 | A_OUT=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa | B_OUT=5555555555555555555555555555555555555555555555555555555555555555
+PASS | SEL=1 | A_IN=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa | B_IN=5555555555555555555555555555555555555555555555555555555555555555 | A_OUT=5555555555555555555555555555555555555555555555555555555555555555 | B_OUT=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+================================================
+ALL TESTS PASSED
+================================================
+
+$finish called at time : 120 ns 
