@@ -49,4 +49,4 @@ module Parameterised_Register_tb;
   	  // Clock generation
     always #5 clk=~clk;
 
-endmodule : Parameterised_Register_tb
+endmodule
