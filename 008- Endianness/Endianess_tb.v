@@ -14,4 +14,4 @@ module Endianess_tb;
 			#50;
 		end
 
-endmodule : Endianess_tb
+endmodule
