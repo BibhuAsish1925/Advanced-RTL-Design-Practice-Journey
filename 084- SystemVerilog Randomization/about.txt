@@ -1,4 +1,4 @@
-Yes. We can now switch from **Verilog RTL practice → SystemVerilog-based verification environment**.
+We can now switch from **Verilog RTL practice → SystemVerilog-based verification environment**.
 
 Your example is a good starting point because it introduces **classes, randomization, and constraints**, which are fundamental to SystemVerilog verification.
 

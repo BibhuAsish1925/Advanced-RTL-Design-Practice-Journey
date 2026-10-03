@@ -1,4 +1,4 @@
-Exactly. This example demonstrates **SystemVerilog `pre_randomize()` and `post_randomize()` callbacks**.
+ This example demonstrates **SystemVerilog `pre_randomize()` and `post_randomize()` callbacks**.
 
 ## 1. Randomization flow
 
