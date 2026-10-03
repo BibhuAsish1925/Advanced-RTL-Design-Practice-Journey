@@ -1,0 +1,156 @@
+Exactly. This example demonstrates **SystemVerilog `pre_randomize()` and `post_randomize()` callbacks**.
+
+## 1. Randomization flow
+
+Whenever you execute:
+
+```systemverilog
+t.randomize();
+```
+
+SystemVerilog follows this sequence:
+
+```text
+t.randomize()
+     │
+     ▼
+pre_randomize()
+     │
+     ▼
+Constraint solving + randomization
+     │
+     ▼
+post_randomize()
+     │
+     ▼
+Randomization completed
+```
+
+The key difference is **when** the callback executes.
+
+---
+
+## 2. `pre_randomize()`
+
+Your commented code:
+
+```systemverilog
+function void pre_randomize();
+  var1.rand_mode(0);
+  var1 = 12;
+  var2 = 14;
+  $display("Inside pre randomize");
+endfunction
+```
+
+`pre_randomize()` executes **before the randomization solver runs**.
+
+### Important point
+
+```systemverilog
+var1.rand_mode(0);
+```
+
+disables randomization of `var1`.
+
+So:
+
+```systemverilog
+var1 = 12;
+var2 = 14;
+```
+
+sets initial values before the solver runs.
+
+However, because `var2` is still `rand`, the solver is free to randomize `var2` afterward if there are constraints affecting it.
+
+Also, `var1` remains fixed at `12` because its randomization has been disabled.
+
+So conceptually:
+
+```text
+pre_randomize()
+    ↓
+var1 = 12
+var2 = 14
+    ↓
+randomization
+    ↓
+var1 stays 12
+var2 may be randomized
+```
+
+---
+
+## 3. `post_randomize()`
+
+Your active code is:
+
+```systemverilog
+function void post_randomize();
+  var1 = 12;
+  var2 = 10;
+  $display("Inside post randomize"); 
+endfunction
+```
+
+This executes **after the randomization solver has finished**.
+
+So initially the solver generates random values:
+
+```text
+var1 → random value
+var2 → random value
+```
+
+Then `post_randomize()` executes:
+
+```systemverilog
+var1 = 12;
+var2 = 10;
+```
+
+Therefore the final values become:
+
+```text
+var1 = 12
+var2 = 10
+```
+
+Your output will essentially be:
+
+```text
+Inside post randomize
+var1=12 var2=10
+```
+
+---
+
+## 4. The most important difference
+
+| Feature                               | `pre_randomize()`                    | `post_randomize()`                      |
+| ------------------------------------- | ------------------------------------ | --------------------------------------- |
+| Executes                              | Before randomization                 | After randomization                     |
+| Purpose                               | Prepare/modify state before solving  | Modify/check generated values           |
+| Can affect solver inputs              | Yes                                  | No, solver already finished             |
+| Typical use                           | Disable fields, initialize variables | Post-processing, calculations, checking |
+| Called automatically by `randomize()` | Yes                                  | Yes                                     |
+
+### Interview answer
+
+> **`pre_randomize()` is called before the constraint solver randomizes the class properties, while `post_randomize()` is called after successful randomization and is typically used for post-processing or checking the generated values.**
+
+### One subtle point in your example
+
+`post_randomize()` **overrides the randomized values by ordinary procedural assignments**. Therefore, although `var1` and `var2` are declared `rand`, the values you finally observe are `12` and `10`.
+
+This is different from putting:
+
+```systemverilog
+constraint c1 {
+  var1 == 12;
+  var2 == 10;
+}
+```
+
+because a constraint makes those values part of the **constraint-solving process**, whereas `post_randomize()` changes them **after solving**.
