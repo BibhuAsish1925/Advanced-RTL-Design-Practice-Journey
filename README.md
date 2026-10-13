@@ -2,6 +2,13 @@
 
 A progressive collection of **Verilog/SystemVerilog RTL design, digital architecture, functional verification, UVM, and hardware security** practice modules.
 
+<table align="center">
+  <tr>
+    <td align="center">
+      <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f94a8f38-f96d-4b0e-8f69-91177c134e56" /><br/>
+    </td>
+</table>
+
 ## 📌 Overview
 
 - **13 Learning Phases** covering RTL design through hardware security.
